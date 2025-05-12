@@ -57,6 +57,4 @@ import pandas as pd
 
 paths = bb.assets("aopwikirdf-kg")
 
-# Available assets:
-
-print(df_1.head())      # Preview the first asset
+print(paths)
