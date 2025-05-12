@@ -1,0 +1,12 @@
+brick_name: aopwikirdf-kg
+description: "TODO: plain\u2011language description."
+source:
+- name: 'TODO: data source'
+  url: https://example.com
+  citation: TODO
+  license: TODO
+transformations: "None \u2013 raw data preserved.\nTODO: update if processing applied."
+assets:
+- file: TODO.ext
+  format: TODO
+  description: TODO
