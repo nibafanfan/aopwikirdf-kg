@@ -33,3 +33,30 @@ git push
 
 7. Monitor the bricktools github action
 
+<!-- AUTO‑GENERATED‑README‑START -->
+# aopwikirdf-kg
+
+## 🔍 Overview
+RDF knowledge graph of Adverse Outcome Pathways from AOP-Wiki
+
+## 📦 Data Source
+- **AOP-Wiki (OECD)**  
+URL: [https://aopwiki.org](https://aopwiki.org)<br>Citation: Martens et al. (2022) Applied In Vitro Toxicology (AOP-Wiki RDF dataset)<br>License: CC BY 4.0
+## 🔄 Transformations
+
+
+## 📁 Assets
+- `aopwiki.hdt` (HDT): Knowledge graph of AOP-Wiki (all AOP entities and relationships)
+
+## 🧪 Usage
+```bash
+biobricks install aopwikirdf-kg
+
+import biobricks as bb
+import pandas as pd
+
+paths = bb.assets("aopwikirdf-kg")
+
+# Available assets:
+
+print(df_1.head())      # Preview the first asset
