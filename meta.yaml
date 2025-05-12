@@ -1,12 +1,14 @@
 brick_name: aopwikirdf-kg
-description: "TODO: plain\u2011language description."
+description: RDF knowledge graph of Adverse Outcome Pathways from AOP-Wiki
 source:
-- name: 'TODO: data source'
-  url: https://example.com
-  citation: TODO
-  license: TODO
-transformations: "None \u2013 raw data preserved.\nTODO: update if processing applied."
+  - name: AOP-Wiki (OECD)
+    url: https://aopwiki.org
+    citation: Martens et al. (2022) Applied In Vitro Toxicology (AOP-Wiki RDF dataset)
+    license: CC BY 4.0
+dtransformations: |
+  - Extracted all AOP-Wiki content and converted to RDF triples using ontologies
+  - Provided as a pre-computed knowledge graph in HDT format
 assets:
-- file: TODO.ext
-  format: TODO
-  description: TODO
+  - file: aopwiki.hdt
+    format: HDT
+    description: Knowledge graph of AOP-Wiki (all AOP entities and relationships)
